@@ -1,0 +1,27 @@
+input:focus:required{
+    border: 2px red solid;
+}
+
+     
+.image{
+    background-image: url(image.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 350px;
+    padding-left: 15px;
+
+}   
+header > div{
+    color: black;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 5px;
+    
+}
+
+input{
+    width: 100%;
+}
+
+
