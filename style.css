@@ -1,27 +1,59 @@
-input:focus:required{
-    border: 2px red solid;
+*{
+    padding: 1px;
+    box-sizing: border-box;
+}   
+.header {
+    margin: 1px;
 }
-
-     
-.image{
-    background-image: url(image.png);
+.header{
+    background-image:url("image.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
     background-position: center;
-    background-size: cover;
-    color: white;
-    height: 350px;
-    padding-left: 15px;
-
+    
 }   
 header > div{
     color: black;
     font-size: 30px;
     padding-left: 50px;
     padding-top: 5px;
-    
+    }
+
+.input-box input,button{
+    width: 100%;
+    padding: 10px;
+    border-radius:10px;
+}
+.input-1 label{
+    color: rgb(0,0,255);
+}
+.input-2 label{
+    color: rgb(255,0,255);
+}
+.input-3 label{
+    color: rgb(255,0,0);
+}
+.input-4 label{
+    color: rgb(0,0,255);
+}
+.input-5 label{
+    color: rgb(0,255,255);
+}
+.input-6 label{
+    color: rgb(0,255,0);
+}
+.input-7 label{
+    color: #000
+}
+.input-8 label{
+    color: rgba(255, 99, 71, 0.5)
+}
+a[href]{
+    text-decoration: none;
+}
+a[href]:hover{
+    text-decoration:underline
 }
 
-input{
-    width: 100%;
-}
 
 
