@@ -1,24 +1,14 @@
 *{
-    padding: 1px;
+    padding: 5px;
     box-sizing: border-box;
 }   
-.header {
-    margin: 1px;
-}
 .header{
     background-image:url("image.png");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
-    
-}   
-header > div{
-    color: black;
-    font-size: 30px;
-    padding-left: 50px;
-    padding-top: 5px;
-    }
-
+    color: #fff;
+}
 .input-box input,button{
     width: 100%;
     padding: 10px;
@@ -54,6 +44,12 @@ a[href]{
 a[href]:hover{
     text-decoration:underline
 }
-
-
-
+.input-box label{
+    margin-bottom: 5px;
+    display: block;
+}
+.input-box{
+    display: block;
+    margin-bottom: 10px;
+  
+}
